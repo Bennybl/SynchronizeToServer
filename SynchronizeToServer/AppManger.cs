@@ -12,7 +12,7 @@ namespace SynchronizeToServer
         private MetaData m_MetaData;
         private readonly Dictionary<string, bool> r_IsFileVisted = new Dictionary<string, bool>();
         private readonly RavenAPI ravenAPI;
-        private const string C_PathToMetaData = @"C:\Users\User\source\repos\SynchronizeToServer\SynchronizeToServer\FilesInLastRun.Json";
+        private const string C_PathToMetaData = @"C:\Users\User\source\repos\SynchronizeToServer\SynchronizeToServer\MetaData.Json";
 
         public AppManger(string i_PathToFolder, string i_PathToServer, string i_DatabaseName)
         {
